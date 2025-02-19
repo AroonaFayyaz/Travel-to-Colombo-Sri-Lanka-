@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe6e9; /* Light pink background */
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #d63384; /* Deep pink */
+    color: white;
+    text-align: center;
+    padding: 40px;
+    font-size: 1.5em;
+}
+
+/* Section Styling */
+section {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* My Connection Section */
+#my-connection {
+    background-color: #ffd6e0;
+    padding: 20px;
+    border-left: 5px solid #ff66a3;
+    font-style: italic;
+}
+
+/* Fun Facts */
+#fun-facts {
+    background-color: #fff3cd;
+    padding: 20px;
+    border-left: 5px solid #ffc107;
+}
+
+#fun-facts ul {
+    list-style-type: square;
+    padding-left: 20px;
+    text-align: left;
+}
+
+/* Attractions */
+.attraction {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #ffe0f0;
+    border-radius: 5px;
+}
+
+/* Explore More Section */
+#explore-more {
+    background-color: #f8d7da;
+    padding: 20px;
+    border-left: 5px solid #ff4d79;
+}
+
+.explore-button {
+    display: inline-block;
+    background-color: #d63384;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.explore-button:hover {
+    background-color: #a71d5d;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #d63384;
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    section {
+        width: 90%;
+    }
+    
+    header {
+        font-size: 1.2em;
+    }
+}
