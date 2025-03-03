@@ -4,12 +4,12 @@ body {
     margin: 0;
     padding: 0;
     background-color: #ffe6e9; /* Light pink background */
-    color: #333;
+    color: #f9dede;
 }
 
 /* Header */
 header {
-    background-color: #d63384; /* Deep pink */
+    background-color: #c9d1f1; /* Deep pink */
     color: white;
     text-align: center;
     padding: 40px;
@@ -60,12 +60,12 @@ section {
 #explore-more {
     background-color: #f8d7da;
     padding: 20px;
-    border-left: 5px solid #ff4d79;
+    border-left: 5px solid #9fa2ab;
 }
 
 .explore-button {
     display: inline-block;
-    background-color: #d63384;
+    background-color: #9b9598;
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
@@ -75,13 +75,13 @@ section {
 }
 
 .explore-button:hover {
-    background-color: #a71d5d;
+    background-color: #acd4c65e;
 }
 
 /* Footer */
 footer {
     text-align: center;
-    background-color: #d63384;
+    background-color: #d4b0c2;
     color: white;
     padding: 20px;
     margin-top: 30px;
